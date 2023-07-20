@@ -91,11 +91,7 @@ footer {
   order: -1;
   padding: 130px;
 }
-@media (min-width: 768px) {
-  .holy-grail-body {
-    flex-direction: row;
-  }
-}
+
 
 .holy-grail-sidebar-2 {
   padding: 130px;
@@ -113,4 +109,26 @@ footer {
 }
 .name {
   margin: 10px;
+} 
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 45px;
+}
+
+label {
+  margin-bottom: 10px; /* Add space below each label */
+}
+
+input,
+textarea {
+  margin-bottom: 20px; /* Add space below each input and textarea */
+}
+
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
 }
