@@ -1,0 +1,94 @@
+/* below is called a wild card (*). it means everything */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 1.13em;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: antiquewhite;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.holy-grail header,
+.holy-grail footer,
+.hg-sidebar,
+.holy-grail-content {
+  padding: 0px;
+}
+
+.holy-grail header {
+  background-color: #684756;
+}
+
+footer {
+  background-color: #684756;
+  color: antiquewhiteå;
+}
+
+.hg-sidebar {
+  color: antiquewhite;
+  background-color: #3d314a;
+}
+
+.holy-grail {
+  min-height: 100vh;
+}
+
+.holy-grail,
+.holy-grail-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.holy-grail-content {
+  flex: 1 1 auto;
+  background-color: #96705b;
+  color: antiquewhite;
+}
+
+.holy-grail-sidebar-1 {
+  order: -1;
+  padding: 130px;
+}
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
+}
+
+.holy-grail-sidebar-2 {
+  padding: 130px;
+}
+
+.quotes {
+  text-align: left;
+  margin: 10px;
+}
+
+.bigquote {
+  text-align: center;
+  padding: 90px;
+  font-size: 45px;
+}
+.name {
+  margin: 10px;
+}
