@@ -109,7 +109,9 @@ footer {
 }
 .name {
   margin: 10px;
-}
+
+} 
+
 
 form {
   display: flex;
@@ -133,7 +135,6 @@ input,
 textarea {
   margin-bottom: 20px; /* Add space below each input and textarea */
 }
-
 
 
 @media (min-width: 768px) {
