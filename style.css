@@ -64,6 +64,27 @@ footer {
   background-color: #96705b;
   color: antiquewhite;
 }
+.bio {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bio p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* .holy-grail-contenta {
+  flex: 1 1 auto;
+  background-color: #96705b;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+} */
 
 .holy-grail-sidebar-1 {
   order: -1;
