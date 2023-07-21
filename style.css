@@ -49,16 +49,26 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: antiquewhite;
   border-radius: 10px;
-  padding: 0px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 220px;
-  max-width: 0px; /* Optional: Set a maximum width for the container */
-  
-  text-align: center;}
+  padding: 10%;
+  box-shadow: 10px 10px 10px black;
+  margin: 0 auto;
+  max-width: 50%; /* Optional: Set a maximum width for the container */
+  text-align: center;  
+  z-index: 1;
+}
 
+.container h2 {
+  font-size: 55px; /* Adjust the font size for h2 */
+  margin-bottom: 10px; /* Optional: Add some spacing below the h2 */
+  text-align: left;
+}
 
+.container p {
+  font-size: 35px; /* Adjust the font size for p */
+  text-align: left;
+}
 footer {
   color: antiquewhite;
   background-color: #6D6466;
@@ -163,5 +173,15 @@ textarea {
 @media (min-width: 768px) {
   .holy-grail-body {
     flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 40px; /* Adjust font size for h2 on smaller screens */
+  }
+
+  .container p {
+    font-size: 28px; /* Adjust font size for p on smaller screens */
   }
 }
