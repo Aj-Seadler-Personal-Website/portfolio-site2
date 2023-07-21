@@ -50,10 +50,10 @@ body {
 }
 
 .container {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   border-radius: 10px;
   padding: 10%;
-  box-shadow: 10px 10px 10px black;
+  /* box-shadow: 10px 10px 10px black; */
   margin: 0 auto;
   max-width: 50%; /* Optional: Set a maximum width for the container */
   text-align: center;  
@@ -61,14 +61,16 @@ body {
 }
 
 .container h2 {
-  font-size: 55px; /* Adjust the font size for h2 */
+  font-size: 65px; /* Adjust the font size for h2 */
   margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
   text-align: left;
+  color: black;
 }
 
 .container p {
   font-size: 35px; /* Adjust the font size for p */
   text-align: left;
+  color: #32322C;
 }
 
 .containera {
@@ -94,6 +96,7 @@ body {
 footer {
   color: antiquewhite;
   background-color: #6D6466;
+  font-size: 15px;
   z-index: -1;
 }
 
