@@ -44,9 +44,20 @@ body {
 .holy-grail-content {
   flex: 1 1 auto;
   background: linear-gradient(to bottom, #629460, #6D6466);
-  color: antiquewhite;
+  color: black;
   /* box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); */
 }
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 220px;
+  max-width: 0px; /* Optional: Set a maximum width for the container */
+  
+  text-align: center;}
+
 
 footer {
   color: antiquewhite;
