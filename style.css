@@ -79,6 +79,7 @@ body {
   padding: 10%;
   box-shadow: 10px 10px 10px black;
   margin: 0 auto;
+  margin-bottom: 25px;
   max-width: 80%; /* Optional: Set a maximum width for the container */
   text-align: center;  
 }
