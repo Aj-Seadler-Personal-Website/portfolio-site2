@@ -76,22 +76,22 @@ body {
 .containera {
   background-color: antiquewhite;
   border-radius: 10px;
-  padding: 10%;
+  padding: 5%;
   box-shadow: 10px 10px 10px black;
   margin: 0 auto;
   margin-bottom: 25px;
-  max-width: 80%; /* Optional: Set a maximum width for the container */
+  max-width: 40%; /* Optional: Set a maximum width for the container */
   text-align: center;  
 }
 
 .containera h2 {
-  font-size: 55px; /* Adjust the font size for h2 */
+  font-size: 2.5rem; /* Adjust the font size for h2 */
   margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
   text-align: left;
 }
 
 .containera p {
-  font-size: 35px; /* Adjust the font size for p */
+  font-size: 1.5rem; /* Adjust the font size for p */
   text-align: left;
 }
 footer {
@@ -148,12 +148,12 @@ footer {
 
 .holy-grail-sidebar-1 {
   order: -1;
-  padding: 230px;
+  padding: 0px;
 }
 
 
 .holy-grail-sidebar-2 {
-  padding: 230px;
+  padding: 0px;
 }
 
 .quotes {
@@ -210,4 +210,27 @@ textarea {
   .container p {
     font-size: 28px; /* Adjust font size for p on smaller screens */
   }
+}
+
+/* Media query for smaller mobile devices */
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    padding: 2%;
+  }
+
+  .containera {
+    max-width: 90%;
+    padding: 2%;
+  }
+
+  .container h2 {
+    font-size: 40px;
+  }
+
+  .container p {
+    font-size: 20px;
+  }
+
+  /* Add any other styles for smaller mobile devices here */
 }
