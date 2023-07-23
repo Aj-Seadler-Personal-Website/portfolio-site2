@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+/* comment */
 
 html,
 body {
@@ -17,6 +18,7 @@ body {
   justify-content: space-between;
   color: antiquewhite;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .links a {
@@ -35,17 +37,73 @@ body {
 }
 
 .holy-grail header {
-  background-color: #684756;
+  background-color: #629460;
+  padding: 20px;
+  /* border-bottom: 1px solid; */
 }
 
+.holy-grail-content {
+  flex: 1 1 auto;
+  background: linear-gradient(to bottom, #629460, #6D6466);
+  color: black;
+  /* box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); */
+}
+
+.container {
+  /* background-color: antiquewhite; */
+  border-radius: 10px;
+  padding: 10%;
+  /* box-shadow: 10px 10px 10px black; */
+  margin: 0 auto;
+  max-width: 50%; /* Optional: Set a maximum width for the container */
+  text-align: center;  
+  z-index: 1;
+}
+
+.container h2 {
+  font-size: 65px; /* Adjust the font size for h2 */
+  margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
+  text-align: left;
+  color: antiquewhite;
+}
+
+.container p {
+  font-size: 35px; /* Adjust the font size for p */
+  text-align: left;
+  color: #32322C;
+}
+
+.containera {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10%;
+  box-shadow: 10px 10px 10px black;
+  margin: 0 auto;
+  max-width: 80%; /* Optional: Set a maximum width for the container */
+  text-align: center;  
+}
+
+.containera h2 {
+  font-size: 55px; /* Adjust the font size for h2 */
+  margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
+  text-align: left;
+}
+
+.containera p {
+  font-size: 35px; /* Adjust the font size for p */
+  text-align: left;
+}
 footer {
-  background-color: #684756;
-  color: antiquewhiteå;
+  color: antiquewhite;
+  background-color: #6D6466;
+  font-size: 15px;
+  z-index: -1;
 }
 
 .hg-sidebar {
-  color: antiquewhite;
-  background-color: #3d314a;
+  color: black;
+  background: linear-gradient(to bottom, #629460, #6D6466);
+  z-index: -1;
 }
 
 .holy-grail {
@@ -59,24 +117,42 @@ footer {
   flex-direction: column;
 }
 
-.holy-grail-content {
+
+.bio {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bio p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 5px;
+}
+
+.portcontent {
+  margin: 0px;
+}
+
+/* .holy-grail-contenta {
   flex: 1 1 auto;
   background-color: #96705b;
   color: antiquewhite;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+} */
 
 .holy-grail-sidebar-1 {
   order: -1;
-  padding: 130px;
-}
-@media (min-width: 768px) {
-  .holy-grail-body {
-    flex-direction: row;
-  }
+  padding: 230px;
 }
 
+
 .holy-grail-sidebar-2 {
-  padding: 130px;
+  padding: 230px;
 }
 
 .quotes {
@@ -91,4 +167,46 @@ footer {
 }
 .name {
   margin: 10px;
+
+} 
+
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 45px;
+}
+
+/* .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 45px;
+} */
+
+label {
+  margin-bottom: 10px; 
+}
+
+input,
+textarea {
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 40px; /* Adjust font size for h2 on smaller screens */
+  }
+
+  .container p {
+    font-size: 28px; /* Adjust font size for p on smaller screens */
+  }
 }
