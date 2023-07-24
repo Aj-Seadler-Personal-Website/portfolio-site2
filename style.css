@@ -58,6 +58,7 @@ body {
   max-width: 50%; /* Optional: Set a maximum width for the container */
   text-align: center;  
   z-index: 1;
+
 }
 
 .container h2 {
@@ -105,6 +106,12 @@ body {
 .containera p {
   font-size: 1.5rem; /* Adjust the font size for p */
   text-align: left;
+}
+
+.containera img {
+  width: 100%;
+  border: 0 solid;
+  border-radius: 5%;
 }
 footer {
   color: antiquewhite;
@@ -189,6 +196,14 @@ form {
   align-items: center;
   flex-direction: column;
   margin: 45px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5%;
+  box-shadow: 10px 10px 10px black;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 40%; /* Optional: Set a maximum width*/
+
 }
 
 /* .form {
