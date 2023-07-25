@@ -80,9 +80,8 @@ body {
   padding: 5%;
   box-shadow: 10px 10px 10px black;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: px;
   max-width: 40%; /* Optional: Set a maximum width for the container */
-  text-align: center;  
 }
 
 .containera h2 {
@@ -113,6 +112,22 @@ body {
   border: 0 solid;
   border-radius: 5%;
 }
+
+input[type="submit"] {
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: 0px solid;
+  border-radius: 10%;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* hover effect */
+input[type="submit"]:hover {
+  background-color: #0056b3; 
+}
+
 footer {
   color: antiquewhite;
   background-color: #6D6466;
@@ -195,15 +210,19 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 45px;
+  margin: 0px;
   background-color: antiquewhite;
   border-radius: 10px;
-  padding: 5%;
+  padding: 2%;
   box-shadow: 10px 10px 10px black;
   margin: 0 auto;
   margin-bottom: 25px;
-  max-width: 40%; /* Optional: Set a maximum width*/
+  max-width: 25%; /* Optional: Set a maximum width*/
 
+}
+
+form label, input {
+  margin: auto;
 }
 
 /* .form {
@@ -251,12 +270,17 @@ textarea {
     padding: 2%;
   }
 
-  .container h2 {
-    font-size: 40px;
+  .containera h2 {
+    font-size: 35px;
   }
 
-  .container p {
+  .containera p {
     font-size: 20px;
+    margin: 10px;
+  }
+
+  form {
+    max-width: 90%;
   }
 
   /* Add any other styles for smaller mobile devices here */
