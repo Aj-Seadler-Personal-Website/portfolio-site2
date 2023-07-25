@@ -77,10 +77,10 @@ body {
 .containera {
   background-color: antiquewhite;
   border-radius: 10px;
-  padding: 5%;
+  padding: 4%;
   box-shadow: 10px 10px 10px black;
-  margin: 0 auto;
-  margin-bottom: px;
+  margin: auto;
+  margin-bottom: 0px;
   max-width: 40%; /* Optional: Set a maximum width for the container */
 }
 
@@ -111,10 +111,11 @@ body {
   width: 100%;
   border: 0 solid;
   border-radius: 5%;
+  display: flex;
 }
 
 input[type="submit"] {
-  background-color: #007bff; 
+  background-color: #629460; 
   color: #ffffff; 
   border: 0px solid;
   border-radius: 10%;
