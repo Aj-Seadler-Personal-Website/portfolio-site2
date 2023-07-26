@@ -58,6 +58,7 @@ body {
   max-width: 50%; /* Optional: Set a maximum width for the container */
   text-align: center;  
   z-index: 1;
+
 }
 
 .container h2 {
@@ -76,23 +77,64 @@ body {
 .containera {
   background-color: antiquewhite;
   border-radius: 10px;
-  padding: 10%;
+  padding: 3%;
   box-shadow: 10px 10px 10px black;
-  margin: 0 auto;
-  max-width: 80%; /* Optional: Set a maximum width for the container */
-  text-align: center;  
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 40%; /* Optional: Set a maximum width for the container */
 }
 
 .containera h2 {
-  font-size: 55px; /* Adjust the font size for h2 */
-  margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
+  font-size: 2.5rem; /* Adjust the font size for h2 */
+  margin-bottom: 5px; /* Optional: Add some spacing below the h2 */
   text-align: left;
 }
 
 .containera p {
-  font-size: 35px; /* Adjust the font size for p */
+  font-size: 1.5rem; /* Adjust the font size for p */
   text-align: left;
 }
+
+
+.containera h2 {
+  font-size: 2.5rem; /* Adjust the font size for h2 */
+  margin: 15px;
+  margin-bottom: 10px; /* Optional: Add some spacing below the h2 */
+  text-align: left;
+}
+
+.containera p, i {
+  font-size: 1.5rem; /* Adjust the font size for p */
+  text-align: left;
+}
+
+
+
+.containera img {
+  width: 60%;
+  float: left;
+  border: 0 solid;
+  margin: 25px 15px 0px 0px; /*this is how i set my image *inside* the paragraph*/
+  /* border-radius: 5%; */
+  display: flex;
+}
+
+
+input[type="submit"] {
+  background-color: #629460; 
+  color: #ffffff; 
+  border: 0px solid;
+  border-radius: 10%;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* hover effect */
+input[type="submit"]:hover {
+  background-color: #0056b3; 
+}
+
 footer {
   color: antiquewhite;
   background-color: #6D6466;
@@ -147,12 +189,12 @@ footer {
 
 .holy-grail-sidebar-1 {
   order: -1;
-  padding: 230px;
+  padding: 0px;
 }
 
 
 .holy-grail-sidebar-2 {
-  padding: 230px;
+  padding: 0px;
 }
 
 .quotes {
@@ -175,7 +217,19 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 45px;
+  margin: 0px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 10px 10px 10px black;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 25%; /* Optional: Set a maximum width*/
+
+}
+
+form label, input {
+  margin: auto;
 }
 
 /* .form {
@@ -209,4 +263,32 @@ textarea {
   .container p {
     font-size: 28px; /* Adjust font size for p on smaller screens */
   }
+}
+
+/* Media query for smaller mobile devices */
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    padding: 2%;
+  }
+
+  .containera {
+    max-width: 90%;
+    padding: 2%;
+  }
+
+  .containera h2 {
+    font-size: 35px;
+  }
+
+  .containera p {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  form {
+    max-width: 90%;
+  }
+
+  /* Add any other styles for smaller mobile devices here */
 }
