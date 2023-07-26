@@ -86,7 +86,7 @@ body {
 
 .containera h2 {
   font-size: 2.5rem; /* Adjust the font size for h2 */
-  margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
+  margin-bottom: 5px; /* Optional: Add some spacing below the h2 */
   text-align: left;
 }
 
@@ -99,7 +99,7 @@ body {
 .containera h2 {
   font-size: 2.5rem; /* Adjust the font size for h2 */
   margin: 15px;
-  margin-bottom: 0px; /* Optional: Add some spacing below the h2 */
+  margin-bottom: 10px; /* Optional: Add some spacing below the h2 */
   text-align: left;
 }
 
@@ -107,6 +107,8 @@ body {
   font-size: 1.5rem; /* Adjust the font size for p */
   text-align: left;
 }
+
+
 
 .containera img {
   width: 60%;
@@ -117,10 +119,6 @@ body {
   display: flex;
 }
 
-#subhead {
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
 
 input[type="submit"] {
   background-color: #629460; 
